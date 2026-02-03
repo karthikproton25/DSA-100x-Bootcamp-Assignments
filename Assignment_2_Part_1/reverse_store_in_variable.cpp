@@ -7,7 +7,6 @@ int main() {
 
     long long reversed = 0;
 
-    // Special case is handled naturally: if N == 0, reversed stays 0
     while (N > 0) {
         reversed = reversed * 10 + (N % 10);
         N /= 10;
