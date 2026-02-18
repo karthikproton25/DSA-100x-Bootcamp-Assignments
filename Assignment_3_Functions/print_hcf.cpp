@@ -1,14 +1,16 @@
 #include <iostream>
 using namespace std;
 
-// Function to compute HCF (GCD)
 int gcd(int A, int B) {
-    while (B != 0) {
-        int remainder = A % B;
-        A = B;
-        B = remainder;
+    int result = 1;
+
+    for (int i = 1; i <= min(A, B); i++) {
+        if (A % i == 0 && B % i == 0) {
+            result = i;
+        }
     }
-    return A;
+
+    return result;
 }
 
 int main() {
