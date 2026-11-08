@@ -15,5 +15,4 @@ int main() {
     cout<<"5 * 8 = 40" << endl;
     cout<<"5 * 9 = 45" << endl;
     cout<<"5 * 10 = 50" << endl;
-    
-}
+} 
