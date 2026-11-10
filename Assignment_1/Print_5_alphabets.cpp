@@ -8,4 +8,6 @@ int main() {
     cout << "C" << endl;
     cout << "D" << endl;
     cout << "E" << endl;
+
+    return 0;
 }
