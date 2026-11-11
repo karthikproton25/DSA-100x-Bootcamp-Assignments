@@ -1,16 +1,19 @@
+
+// submitting assignments - 10/11/2026
+
 #include <iostream>
 using namespace std;
- 
+
 int main() {
-    int N;
-    cin >> N;
-   
-    if (N % 2 == 0) {
+  int number;
+  cin >> number;
+
+  if (number % 2 == 0) {
     cout << "Even" << endl;
-} else {
+  } else {
+
     cout << "Odd" << endl;
-}
-    
-    return 0;
-    
+  }
+
+  return 0;
 }
