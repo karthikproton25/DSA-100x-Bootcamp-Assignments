@@ -1,3 +1,4 @@
+//submitting assignments 13/11/2026
 #include <iostream>
 using namespace std;
  
@@ -7,7 +8,7 @@ int main() {
  
     int i = N;
     while (i >= 1) {
-        cout << i << " ";
+        cout << i << endl;
         i--;
     }
  
