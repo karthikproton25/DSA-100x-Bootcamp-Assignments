@@ -3,14 +3,17 @@
 using namespace std;
  
 int main() {
-    int N;
-    int i = 1;
-    cin >> N;
- 
-    while (i <= N) {
-        cout << i << endl;
+    int L, R;
+    cin >> L >> R;
+
+    int i = L;
+    while (i <= R) {
+        cout << i;
+        if (i != R) {
+            cout << " ";
+        }
         i++;
     }
- 
+
     return 0;
 }
