@@ -1,3 +1,4 @@
+//submitting assignments 23/11/2026
 #include <iostream>
 using namespace std;
 
@@ -7,12 +8,10 @@ int main() {
     cin >> x >> n;
 
     long long result = 1;
-
     for (int i = 0; i < n; i++) {
-        result *= x;
-    }
+        result *= result * x;
+        cout << result << endl;
 
-    cout << result << endl;
-
+    } 
     return 0;
 }
